@@ -1,0 +1,260 @@
+.homePageContainer {
+    height: 100vh;
+    padding-top: 10vh;
+    /* border: 2px solid white; */
+    color: white;
+    background-color: rgb(20, 0, 38);
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.liveLogo {
+    margin-bottom: 15px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redDot {
+    height: 16px;
+    width: 16px;
+    margin-right: 5px;
+    /* border: 1px solid red; */
+    border-radius: 25px;
+    background-color: red;
+}
+
+.cardsContainer {
+    padding: 10px;
+    margin-top: 15px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardsRow1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardsRow2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 18vh;
+    width: 32vw;
+    max-width: 290px;
+    margin: 12px;
+    border-radius: 5px;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 10px 0px white;
+    transition: 0.2s;
+}
+
+span {
+    font-size: 8px;
+}
+
+.card p,
+h1 {
+    text-shadow: 3px 5px 8px black;
+}
+
+.flagContainer {
+    height: 18vh;
+    width: 32vw;
+    max-width: 290px;
+    border-radius: 5px;
+}
+
+.flagContainer:hover {
+    box-shadow: 0px 0px 10px 0px white;
+    transition: 0.2s;
+}
+
+.saffron {
+    height: 33.33%;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #FF9933;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white {
+    height: 33.33%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ashoka-chakraContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ashoka-chakra {
+    height: 49px;
+    width: 49px;
+}
+
+.darkGreen {
+    height: 33.33%;
+    width: 100%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: darkgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.darkGreen h1 {
+    text-shadow: 3px 5px 7px black;
+}
+
+.recovered {
+    background-color: rgb(49, 154, 0);
+}
+
+.confirmed {
+    background-color: rgb(0, 0, 145);
+}
+
+.death {
+    background-color: rgb(222, 0, 0);
+}
+
+.activeCard {
+    background-color: rgb(219, 99, 0);
+}
+
+.update {
+    background-color: rgb(197, 197, 0);
+}
+
+.update h1 {
+    text-align: center;
+}
+
+
+/* *******  ******* */
+@media (max-width: 1100px) {
+    .card {
+        height: 16vh;
+        width: 27vw;
+
+    }
+
+    .flagContainer {
+        height: 16vh;
+        width: 27vw;
+    }
+
+    .ashoka-chakra {
+        height: 45px;
+        width: 45px;
+    }
+}
+
+/* ********* for TAB  ********** */
+@media (max-width: 720px) {
+    .homePageContainer {
+        padding-top: 5vh;
+    }
+
+    .cardsContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cardsRow1, .cardsRow2 {
+        display: block;
+    }
+
+    .card, .flagContainer {
+        height: 15vh;
+        width: 35vw;
+    }
+
+    .ashoka-chakra {
+        height: 42px;
+        width: 42px;
+    }
+}
+
+/* ******** for Mobile screen ******** */
+@media (max-width: 600px) {
+    .card, .flagContainer {
+        height: 12vh;
+        width: 40vw;
+    }
+
+    .card h1 {
+        font-size: 27px;
+    }
+
+    .ashoka-chakra {
+        height: 33px;
+        width: 33px;
+    }
+}
+
+@media (max-height: 690px) {
+    .homePageContainer {
+        padding-top: 2vh;
+    }
+
+    .card, .flagContainer {
+        height: 17vh;
+        width: 42vw;
+    }
+
+    .card h1 {
+        font-size: 25px;
+    }
+
+    .ashoka-chakra {
+        height: 33px;
+        width: 33px;
+    }
+}
+
+@media (max-height: 550px) {
+
+    .card, .flagContainer {
+        height: 19vh;
+        width: 40vw;
+    }
+
+    .card h1 {
+        font-size: 23px;
+    }
+
+    .ashoka-chakra {
+        height: 28px;
+        width: 28px;
+    }
+}
