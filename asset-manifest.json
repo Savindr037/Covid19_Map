@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Covid19_Map/static/css/main.fc993017.css",
+    "main.css": "/Covid19_Map/static/css/main.fba8c96e.css",
     "main.js": "/Covid19_Map/static/js/main.78addd57.js",
     "static/media/ashoka-chakra-png-46973.png": "/Covid19_Map/static/media/ashoka-chakra-png-46973.f7eab2e0b11c67e7d82a.png",
     "index.html": "/Covid19_Map/index.html",
-    "main.fc993017.css.map": "/Covid19_Map/static/css/main.fc993017.css.map",
+    "main.fba8c96e.css.map": "/Covid19_Map/static/css/main.fba8c96e.css.map",
     "main.78addd57.js.map": "/Covid19_Map/static/js/main.78addd57.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc993017.css",
+    "static/css/main.fba8c96e.css",
     "static/js/main.78addd57.js"
   ]
 }
